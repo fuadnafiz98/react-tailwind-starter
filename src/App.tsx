@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="grid h-screen font-sans font-medium place-content-center">
       <TaskProvider>
-        <div>🧁 React Starter</div>
+        <div className="text-4xl font-black">🧁 React Starter</div>
         <Router>
-          <div className="space-x-4 font-medium text-blue-400">
+          <div className="flex justify-center space-x-4 font-medium text-blue-400 ">
             <Link to="/">Home</Link>
             <Link to="/pie">Pie</Link>
           </div>
