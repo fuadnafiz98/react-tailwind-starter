@@ -10,7 +10,7 @@ function App() {
     <div className="grid h-screen font-sans font-medium place-content-center">
       <Suspense fallback={<Loading />}>
         <TaskProvider>
-          <div className="text-4xl font-black">🧁 React Starter</div>
+          <div className="text-4xl font-black">🍋 React Starter</div>
           <Router>
             <div className="flex justify-center space-x-4 font-medium text-blue-400 ">
               <Link to="/">Home</Link>
